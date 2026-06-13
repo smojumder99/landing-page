@@ -4,7 +4,6 @@
 
 /* General + 1st section */
 
-
 body{
     margin: 0;
 }
@@ -79,17 +78,140 @@ text-align: center;
 button {
     cursor: pointer;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 6px 16px;
     background: #3882f6;
 }
 
 .header-button  {
   border: 1px solid #3882f6;
   color: white;
-  width: 100px;
+  width: 120px;
   
 }
 
 
 
 /* 2nd section */
+
+.information{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937 ;
+    margin-bottom: 50px;
+}
+
+.info-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.infogroup1, .infogroup2, .infogroup3, .infogroup4{
+    align-content: center;
+    max-width: 150px;
+}
+
+.info-text1, .info-text2, .info-text3, .info-text4{
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    
+}
+
+.info-content img{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+ /* 3rd section */
+
+ .quote-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 100px 350px;
+
+ }
+
+
+ .quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+ }
+
+ .quote-author{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+ }
+
+
+
+
+ /* 4th section */
+
+ .call-to-action{
+    padding:  50px 80px;
+    justify-content: center;
+    display: flex;
+    color: #f9faf8;
+ }
+
+ .cta-content{
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    padding: 50px 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+ }
+ 
+ .cta-header{
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 700;
+ }
+
+ .cta-subtext{
+    font-size: 18px;
+ }
+
+ button.cta-button{
+  border: 1px solid #f9faf8;
+  color: #f9faf8;
+  width: 120px;
+ }
+  
+
+ 
+
+ /* 5th section */
+
+.footer{
+    padding: 30px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
+ 
